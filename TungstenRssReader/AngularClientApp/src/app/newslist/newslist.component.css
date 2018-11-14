@@ -1,0 +1,36 @@
+.newslist article{
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+.newslist article:hover{
+    background: #ccc;
+    border-color: #666;
+    cursor: pointer;
+}
+.newslist article:first-child{
+    border-top: 0;
+}
+
+.newslist article .thumb{
+    float: left;
+}
+.newslist article .content{
+    float: left;
+    margin-left: 10px;
+}
+.newslist article:after{
+    content: "";
+    clear: both;
+    display: block;
+    float: none;
+}
+article .content span{
+    display: block;
+}
+article .content h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+article .content p{
+    margin: 0;
+}

@@ -1,0 +1,10 @@
+.newsitemdialog article span{
+    display: block;
+}
+.newsitemdialog article h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.newsitemdialog article p{
+    margin: 0;
+}

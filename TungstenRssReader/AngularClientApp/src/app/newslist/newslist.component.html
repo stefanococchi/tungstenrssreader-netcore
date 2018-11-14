@@ -1,0 +1,12 @@
+<div class="newslist">
+  <article *ngFor="let item of newsList" (click)="readNewsItem(item)">
+      <div class="thumb">
+          <img src="{{item.thumbnail.url}}" width="200"/>
+      </div>
+      <div class="content">
+          <span>{{ item.pubDate }}</span>
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.description }}</p>
+      </div>
+  </article>
+</div>
